@@ -1,12 +1,10 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   new_hash ={}
-  i = 0
   data.each do |key, value_hash|
     value_hash.each do |tags, names|
-      new_hash[names[i]] = key
-      if(new_hash.include? name[i])
-        new_hash[name[i+1]] = key
+      names.each_with_index do |name, index|
+        "#{name} => key"
 
 binding.pry
       end
