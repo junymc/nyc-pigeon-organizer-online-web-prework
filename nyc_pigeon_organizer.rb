@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         new_hash[name] ||= {}
         new_hash[name][key] ||= []
         new_hash[name][key] << tags.to_s
-        binding.pry
+    
       end
     end
   end
