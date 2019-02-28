@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         new_hash[name] = {}
         binding.pry
-        new_hash[name][key] = tags
+        new_hash[name][key] = []
 
       end
     end
