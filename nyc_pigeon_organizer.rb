@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(data)
         "#{name} => {key}"
       end
     end
-  end# write your code here!
+  end
 end
