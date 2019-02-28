@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         new_hash[name] = key
         new_hash[name][key] = tags
         binding.pry
-        end
+      
       end
     end
   end
