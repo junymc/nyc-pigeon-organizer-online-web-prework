@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value_hash|
     value_hash.each do |tags, names|
       names.each_with_index do |name, index|
-        "#{name} => key"
+        "#{name} => {key}"
 
 binding.pry
       end
